@@ -213,7 +213,7 @@ if option == "تحميل من الملف":
             st.success("تم تحميل الصورة بنجاح!")
             
             # عرض الصورة
-            st.image(uploaded_image, caption="الصورة المرفوعة", use_column_width=True)
+            st.image(uploaded_image, caption="الصورة المرفوعة", use_container_width=True)
 
 else:
     # خيار التقاط صورة من الكاميرا
