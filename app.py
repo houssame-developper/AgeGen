@@ -83,6 +83,7 @@ def cards(recommendations):
         padding: 20px;
 background-color: #22305C;  
         overflow-x: auto;
+        overflow-y: hidden;
         scrollbar-color: #3559A0 #22305C;
         scrollbar-width: thin;
          box-shadow: 0 2px 8px rgba(0,0,0,0.07);
