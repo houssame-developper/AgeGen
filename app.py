@@ -135,7 +135,7 @@ def cards(recommendations):
     </html>
     """
     
-    html(cards_html,height=600, width=1000,scrolling=False)
+    html(cards_html,height=600, width=1500,scrolling=False)
 
 # Fonction pour afficher les recommandations basées sur l'âge et le sexe
 def show_recommendations(age, gender, data):
