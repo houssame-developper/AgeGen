@@ -67,11 +67,9 @@ def cards(recommendations):
         flex-wrap: wrap;  /* changé de nowrap à wrap */
         gap: 15px;
         justify-content: flex-start;
-        direction: rtl;
         padding: 20px;
         background-color: #22305C;
-        overflow-x: auto;
-        overflow-y: hidden;
+
         scrollbar-color: #fff #000;
         scrollbar-width: thin;
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
@@ -90,7 +88,6 @@ def cards(recommendations):
         text-align: right;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-bottom: 15px;
-        flex: 0 0 auto;
     }
     .card img {
         width: 100%;
