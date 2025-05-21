@@ -82,9 +82,9 @@ def cards(recommendations):
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
         padding: 16px;
         width: 220px;
-        text-align: right;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-bottom: 15px;
+        flex: 0 0 auto; 
     }
     .card img {
         width: 100%;
