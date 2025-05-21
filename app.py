@@ -69,13 +69,13 @@ def cards(recommendations):
         justify-content: center;
         padding: 20px;
         overflow-y: auto; 
-        background-color: grey;
+        background-color: rgb(14, 17, 23);
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     }
     iframe {
         border: 1px solid #3559A0;
         border-radius: 20px;
-        background-color: #22305C;
+        background-color: rgb(14, 17, 23);
     }
     .card {
         background: #f9f9f9;
