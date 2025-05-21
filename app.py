@@ -66,8 +66,9 @@ def cards(recommendations):
         display: flex;
         flex-wrap: wrap; 
         gap:5px;
-        justify-content: flex-start;
+        justify-content: center;
         padding: 20px;
+        overflow-y: auto; 
         background-color: grey;
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     }
