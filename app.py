@@ -64,11 +64,11 @@ def cards(recommendations):
     }
     .flex-container {
         display: flex;
-        flex-wrap: wrap;  /* changé de nowrap à wrap */
-        gap:3px:
+        flex-wrap: wrap; 
+        gap:5px;
         justify-content: flex-start;
         padding: 20px;
-        background-color: gray;
+        background-color: grey;
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     }
     iframe {
