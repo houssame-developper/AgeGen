@@ -71,6 +71,8 @@ def cards(recommendations):
         overflow-y: auto; 
         background-color: rgb(14, 17, 23);
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        scrollbar-color: #fff #000;
+        scrollbar-width: thin;
     }
     iframe {
         border: 1px solid #3559A0;
