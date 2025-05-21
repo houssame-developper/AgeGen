@@ -65,13 +65,10 @@ def cards(recommendations):
     .flex-container {
         display: flex;
         flex-wrap: wrap;  /* changé de nowrap à wrap */
-        gap: 15px;
+        gap:3px:
         justify-content: flex-start;
         padding: 20px;
-        background-color: #22305C;
-
-        scrollbar-color: #fff #000;
-        scrollbar-width: thin;
+        background-color: gray;
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     }
     iframe {
