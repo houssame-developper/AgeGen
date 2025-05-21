@@ -1,0 +1,8 @@
+streamlit
+pandas
+Pillow
+opencv-python
+torch
+joblib
+matplotlib
+transformers
