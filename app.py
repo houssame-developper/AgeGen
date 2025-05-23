@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_option('server.runOnSave', False)
 import pandas as pd
 from PIL import Image
 import torch
