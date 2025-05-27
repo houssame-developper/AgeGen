@@ -192,6 +192,7 @@ if st.button("Analyser l'image"):
     if image_to_predict is not None and processor is not None and age_model is not None and gender_model is not None:
         with st.spinner('Analyse de l\'image en cours...'):
             predicted_age, predicted_gender = predict_image(image_to_predict)
+            predicted_gender.replace('more than 70','70+')  
             if predicted_age is not None and predicted_gender is not None:
                 st.subheader("Résultats de l'analyse :")
                 col1, col2 = st.columns(2)
